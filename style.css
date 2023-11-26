@@ -17,8 +17,19 @@ html {
 
 /*menu*/
 
+header, img{
+    width: 140px;
+    height: 140px;
+    justify-content: end;
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+}
+
+
+
 .content {
-    padding: 50px;
+    padding: 80px;
     width: 100vw;
     height: 70px;
     display: flex;
@@ -39,7 +50,7 @@ html {
 }
 
 .first-section {
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(img/01-massa-pizza.png);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)) ,url(imagens/massa-de-pizza.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,7 +59,7 @@ html {
 }
 
 .list-menu {
-    width: 600px;
+    width: 900px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -115,4 +126,49 @@ html {
     background-color: transparent;
     color: #ffc506;
     transition: 0.2s;
+}
+
+#cardapio {
+    padding: 30px;
+
+}
+
+.section-products {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.imagens-cardapio {
+    width: 280px;
+    height: 280px;
+    align-items: center;
+    
+}
+
+
+.text-products { /*chamamos nosso titulo para estilização*/
+    margin-top: 10px; /*espaçamento do titulo em relação a img*/
+    font-family: Arial, Helvetica, sans-serif; /*familia da fonte*/
+    text-align: center; /*alinhamento do texto ao centro*/
+    font-size: 22px; /*tamanho da letra*/
+
+}
+
+
+#cardapio > a { /*aqui chamamos nossa tag "a" para estilização*/
+    text-decoration: none; /*desabilitamos a decoração (sublinhado)*/
+    font-family: Arial, Helvetica, sans-serif; /*familia de fonte*/
+    font-size: 20px; /*tamanho da fonte */
+    color: black; /*cor da letra */
+    display: flex; /*jogando lado a lado*/
+    justify-content: end; /*alinhando ao centro*/
+    text-align: end; /*alinhando ao centro*/
+
+}
+#cardapio > h2 {
+    text-align: center;
+    font-size: 40px;
 }
