@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+sans:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+header{
+    background: url(imagens/massa-de-pizza.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+header h1{
+    text-align: center;
+    font-size: 35px;
+    color:  #ffc506;
+    padding: 30px 0;
+}
