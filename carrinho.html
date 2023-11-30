@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>SeuCarrinho|Pizzahub</title>
     <link rel="stylesheet" href="carrinho.css">
 </head>
@@ -14,57 +15,57 @@
       <div class="contador-items">
         <div class="item">
             <span class="titulo-item">pizza portuguesa</span>
-            <img src="imagens/final logo pizzahub.png" alt="img-item">
+            <img src="img/final logo pizzahub.png" alt="img-item">
             <span class="preço-item">20.00</span>
             <button class="botton-item">Adicionar ao carrinho</button>
         </div>
         <div class="item">
             <span class="titulo-item">pizza marguerita</span>
-            <img src="imagens/final logo pizzahub.png" alt="img-item">
+            <img src="img/final logo pizzahub.png" alt="img-item">
             <span class="preço-item">25.00</span>
             <button class="botton-item">Adicionar ao carrinho</button>
 
       </div>
       <div class="item">
         <span class="titulo-item">pizza de calabresa</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/final logo pizzahub.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
     </div>
     
     <div class="item">
         <span class="titulo-item">pizza Pepperoni</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/final logo pizzahub.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
        </div>
        <div class="item">
         <span class="titulo-item">pizza mussarela</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/final logo pizzahub.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
        </div>
        <div class="item">
         <span class="titulo-item">pizza mussarela</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/final logo pizzahub.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
        </div>
        <div class="item">
         <span class="titulo-item">pizza mussarela</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/final logo pizzahub.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
        </div>
        <div class="item">
         <span class="titulo-item">pizza mussarela</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/final logo pizzahub.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
        </div>
        <div class="item">
         <span class="titulo-item">pizza mussarela</span>
-        <img src="imagens/final logo pizzahub.png" alt="img-item">
+        <img src="img/pizza mussarela.png" alt="img-item">
         <span class="preço-item">20.00</span>
         <button class="botton-item">Adicionar ao carrinho</button>
        </div>
@@ -76,17 +77,44 @@
 
         <div class="carrinho-items">
             <div class="carrinho-item">
-                <img src="imagens/final logo pizzahub.png" alt="" width="80px">
+                <img src="img/final logo pizzahub.png" alt="img" width="80px">
                 <div class="carrito-item-detalhes">
                     <span class="carrinho-item-titulo">pizza portuguesa</span>
                     <div class="selecao-quantidade">
                         <i class="fa-solid fa-minus restar-quantidade"></i>
                         <input type="text" value="1" class="carrinho-item-quantidade" disabled>
-                        <i class="fa-sharp fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-plus sumar-quantidade"></i>   
                     </div>
                     <span class="carrinho-item-preco">$20.00</span>
                 </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
             </div>
+        </div>
+        <div class="carrinho-item">
+            <img src="img/final logo pizzahub.png" alt="img" width="80px">
+            <div class="carrito-item-detalhes">
+                <span class="carrinho-item-titulo">pizza marguerita</span>
+                <div class="selecao-quantidade">
+                    <i class="fa-solid fa-minus restar-quantidade"></i>
+                    <input type="text" value="1" class="carrinho-item-quantidade" disabled>
+                    <i class="fa-solid fa-plus sumar-quantidade"></i>   
+                </div>
+                <span class="carrinho-item-preco">$25.00</span>
+            </div>
+            <span class="btn-eliminar">
+                <i class="fa-solid fa-trash"></i>
+            </span>
+        </div>
+        <div class="carrinho-total">
+            <div class="fila">
+                <strong>TOTAL</strong>
+                <span class="carrinho-preço-total">
+                    $45.00
+                </span>
+            </div>
+            <button class="btn-pagar">Comprar<i class="fa-solid fa-bag-shopping"></i></button>
         </div>
         
     </div>
